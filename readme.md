@@ -104,6 +104,8 @@ property.
 | content | text |
 | author | string |
 
+sequelize model:create --name article --attributes title:string,content:text
+
 Use this table as a reference when running the `sequelize model:create` command in the next section
 
 > Note: You do not need to create the columns `id`, `createdAt`, or `updatedAt`. Sequelize gives you those ones for free.
